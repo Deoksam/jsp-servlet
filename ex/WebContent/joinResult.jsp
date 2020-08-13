@@ -7,9 +7,9 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<%
-		session.invalidate();
-		response.sendRedirect("login.html");
-	%>
+
+회원가입이 정상 처리 되었습니다.<br />
+<a href="login.html">로그인</a>
+
 </body>
 </html>
